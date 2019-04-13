@@ -1,1 +1,23 @@
 // Mixins Here
+
+//my two mixins here, one of them being parametric
+
+
+@phone: ~"(max-width: 500px)";
+
+
+.button-size(@width, @height) {
+    width:@width;
+    height:@height;
+}
+
+
+.button-color(@background-color: @btn-bg-color, @font-color: white) {
+    background-color: @background-color;
+    color: @font-color;
+
+   
+
+
+
+}
